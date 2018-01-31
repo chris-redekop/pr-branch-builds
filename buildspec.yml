@@ -4,6 +4,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - env
       - echo Compiling the Python code...
       - python Calculator_tst.py
   post_build:
